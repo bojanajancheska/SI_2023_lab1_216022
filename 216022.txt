@@ -1,0 +1,76 @@
+4. C:\Users\Bojana>mkdir SI_2023_lab1_216022 - со командата mkdir правам еден директориум 
+C:\Users\Bojana>cd SI_2023_lab1_216022 - со командата cd влегувам во директориумот 
+C:\Users\Bojana\SI_2023_lab1_216022>git init -  со командата init  иницијализирам празен Git репозиториум во директориумот
+
+5. C:\Users\Bojana\SI_2023_lab1_216022>git remote add origin https://github.com/bojanajancheska/SI_2023_lab1_216022.git - со командата remote add origin го поврзувам локалниот со оддалечениот репозиториум
+
+6. C:\Users\Bojana\SI_2023_lab1_216022>echo >> README.md
+C:\Users\Bojana\SI_2023_lab1_216022>README.md
+C:\Users\Bojana\SI_2023_lab1_216022>git add README.md
+C:\Users\Bojana\SI_2023_lab1_216022>git commit -m "Initial commit" 
+- Со командата echo додавам README.md датотека, и правам commit
+
+7. C:\Users\Bojana\SI_2023_lab1_216022>echo >> SILab1.java
+C:\Users\Bojana\SI_2023_lab1_216022>SILab1.java
+C:\Users\Bojana\SI_2023_lab1_216022>git add SILab1.java
+C:\Users\Bojana\SI_2023_lab1_216022>git commit -m "Add java class"
+- Со командата echo додавам SILab1.java фајл, и правам commit
+
+8. C:\Users\Bojana\SI_2023_lab1_216022>git push origin --all
+- Со командата push origin --all ги синхронизирам сите гранки со оддалечениот репозиториум
+
+9.C:\Users\Bojana\SI_2023_lab1_216022>git branch bug1
+C:\Users\Bojana\SI_2023_lab1_216022>git branch bug2
+C:\Users\Bojana\SI_2023_lab1_216022>git branch bug3
+- Со командата branch ги правам трите гранки
+
+10. C:\Users\Bojana\SI_2023_lab1_216022>git checkout bug1
+- Со командата checkout се префрлам на гранката bug1
+
+11.C:\Users\Bojana\SI_2023_lab1_216022>SILab1.java
+C:\Users\Bojana\SI_2023_lab1_216022>git add .
+C:\Users\Bojana\SI_2023_lab1_216022>git commit -m "Fix wrong loop for reading"
+
+12. C:\Users\Bojana\SI_2023_lab1_216022>git checkout bug2
+
+13. C:\Users\Bojana\SI_2023_lab1_216022>SILab1.java
+C:\Users\Bojana\SI_2023_lab1_216022>git add .
+C:\Users\Bojana\SI_2023_lab1_216022>git commit -m "Fix wrong condition in filterOddNumbers"
+
+14. C:\Users\Bojana\SI_2023_lab1_216022>git checkout bug3
+
+15. C:\Users\Bojana\SI_2023_lab1_216022>SILab1.java
+C:\Users\Bojana\SI_2023_lab1_216022>git add .
+C:\Users\Bojana\SI_2023_lab1_216022>git commit -m "Fix method sumEvenNumbers"
+
+16. C:\Users\Bojana\SI_2023_lab1_216022>git push origin --all
+
+17. C:\Users\Bojana\SI_2023_lab1_216022>git checkout master
+
+18. C:\Users\Bojana\SI_2023_lab1_216022>git merge bug1
+
+19. C:\Users\Bojana\SI_2023_lab1_216022>git push origin --all
+
+20. C:\Users\Bojana\SI_2023_lab1_216022>git merge bug2
+
+21. C:\Users\Bojana\SI_2023_lab1_216022>git push origin --all
+
+22. C:\Users\Bojana\SI_2023_lab1_216022>git checkout bug3
+
+23. C:\Users\Bojana\SI_2023_lab1_216022>git rebase master
+
+24. C:\Users\Bojana\SI_2023_lab1_216022>git checkout master
+
+25. C:\Users\Bojana\SI_2023_lab1_216022>git merge bug3
+
+26. C:\Users\Bojana\SI_2023_lab1_216022>git push --force origin bug3
+
+27. C:\Users\Bojana\SI_2023_lab1_216022>git log
+C:\Users\Bojana\SI_2023_lab1_216022>echo >> logs.txt
+C:\Users\Bojana\SI_2023_lab1_216022>logs.txt
+C:\Users\Bojana\SI_2023_lab1_216022>echo >> 216022.txt
+C:\Users\Bojana\SI_2023_lab1_216022>216022.txt
+C:\Users\Bojana\SI_2023_lab1_216022>git add --all
+C:\Users\Bojana\SI_2023_lab1_216022>git commit -m "Final commit"
+
+28. C:\Users\Bojana\SI_2023_lab1_216022>git push origin --all
